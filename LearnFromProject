@@ -1,0 +1,30 @@
+* Thay đổi cấu trúc của 1 block vần phải thêm display:flex;
+I.Flexbox
+    - Dùng để thiết kế bố cục trang web(thiết kế bố cục trang web còn có thể dùng float, kỹ thuật clear float hay đặt 
+    position lồng nhau nhưng phức tạp hơn).
+    - Các thuộc tính của flex container
+        1. display: flex (thông thường là flex hoặc inline-flex)
+        2. flex-direction: row | column ... (row: mặc đinh, iteam nằm ngang; column: iteam theo chiều dọc)
+        3. flex-wrap: wrap (thông thường là wrap: khi kích thước container thay đổi và tổng chiều rộng của các item lớn hơn 
+        chiều rộng của container thì item tự động xuống dòng)
+        4. justify-content: center (điều chỉnh vị trí bắt đầu và căn chỉnh item theo chiều dọc trục main axis)
+        5. align-items: center (điều chỉnh vị trí bắt đầu và căn chỉnh item theo chiều dọc trục main axis)
+        ...
+        Để tìm hiểu thêm: https://quantrimang.com/su-dung-bo-cuc-trang-flexbox-trong-css-163636
+
+II. Gradient - màu chuyển đổi tuyến tính trong css
+    Có 2 loại gradient: 
+        - linear Gradient: Quét màu xuất pahst từ 1 phía, có thể theo chiều lên, xuống, trái, phải, đường chéo
+        - Radial Gradient: Quét màu xuất phát từ tâm
+    1. linear Gradient:	
+        Cú pháp: 
+            background-image: linear-gradient(direction, color-stop1, color-stop2)
+        Tham số:
+            direction: Hướng chuyển màu (to bottom, to top, to right, to left,...)
+            color-stop1, color-stop2: Các điểm dừng màu. Một điểm dừng màu bao gồm 1 giá trị màu và vị trí dừng tùy chọn(0-100%)
+III. Note
+    1.text-decoration: thiết lập trang trí thêm cho text, thường dùng ở thẻ <a></a> để xóa phần gạch chân
+        text-decoration: none (thường dùng để xóa phần gạch chân)  
+    2. text-align: sắp xếp nội dung
+        text-align: center (thường dùng để căn giữa đoạn text trong 1 thẻ)
+    3, opacity: hiển thị độ trong suốt      
